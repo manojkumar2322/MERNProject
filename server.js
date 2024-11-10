@@ -4,7 +4,7 @@ require("dotenv").config();
 const app = express();
 const { User } = require("./models/User");
 const cors = require("cors");
-
+const path = require('path');
 app.use(cors());
 app.use(express.json());
 
